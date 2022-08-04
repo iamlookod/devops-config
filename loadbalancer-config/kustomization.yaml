@@ -9,7 +9,7 @@ secretGenerator:
 configMapGenerator:
   - name: loadbalancer
     envs:
-      - "config/configmap.env"
+      - "config/configmaps.env"
 
 generatorOptions:
   disableNameSuffixHash: true
